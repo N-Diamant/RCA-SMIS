@@ -19,11 +19,11 @@
         </fieldset>
     </c:if>
     <form action="createcourse.php?page=createcourse" method="post" style="position: relative;
-          left: 280px;overflow: hidden;
+          left: 280px;overflow: hidden;top:50px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           height: 75%;width: 50%;padding-left: 60px;padding-top: 80px;">
         <h4 style="text-align: center;  color: #337AB7;position: relative;bottom: 50px;right: 40px">
-            <b>Enter Student Details</b>
+            <b>Enter Course Details</b>
             <%--			HAVE TO CHANGE THE FONT STYLE--%>
         </h4>
                 <label for="course-name">Course Name</label>
@@ -56,7 +56,7 @@
     </form>
 </div>
 
-<div style="margin-left: 480px;">
-    <%@ include file="footer.jsp"%>
-</div>
+<%--<div style="margin-left: 520px;">--%>
+<%--    <%@ include file="footer.jsp"%>--%>
+<%--</div>--%>
 

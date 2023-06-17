@@ -22,7 +22,7 @@
     <title>Course Registrations</title>
 </head>
 <body>
-<div id="layout" class="container" style="padding-top: 16px; ">
+<div id="layout" class="container" style="padding-top: 16px; position: relative;top: 50px;">
     <div id="banner">
         <div class="bannerlogo"></div>
         <div class="text_header">RCA Management Information System</div>
@@ -80,4 +80,5 @@
 
         </c:if>
     </div>
+
 <%@ include file="footer.jsp"%>
